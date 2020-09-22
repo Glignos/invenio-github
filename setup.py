@@ -69,7 +69,7 @@ install_requires = [
     'Flask-BabelEx>=0.9.3',
     'Flask-Breadcrumbs>=0.4.0',
     'Flask-Menu>=0.5.0',
-    'Flask>=1.0.2',
+    'Flask>=1.0.4',
     'WTForms-Alchemy>=0.15.0,<0.17',
     'email-validator>=1.0.5',
     'github3.py==1.0.0a4',
@@ -94,7 +94,9 @@ install_requires = [
     'uritemplate.py>=0.2.0,<2.0',
     'urllib3<1.25,>=1.21.1',  # from "invenio-search"
     'idna>=2.5,<2.8',  # from "invenio-search"
-    'werkzeug>=0.14.1,<1.0.0',
+    'werkzeug>=0.15.0,<1.0.0',
+    'invenio-indexer>=1.0.2,<1.2.0',
+
 ]
 
 packages = find_packages()
